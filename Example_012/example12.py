@@ -6,6 +6,6 @@ for i in range(summ_numbers):
     for j in range(summ_numbers):
         if i+j == summ_numbers:
             if i*j == multiplication_numbers:
-                x =i
-                y = j
+                x =j
+                y = i
 print(f"x = {x}, y = {y}")
